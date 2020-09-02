@@ -1,115 +1,174 @@
 Modules list:
 -------------
 draw.o:
-    CODE              Offs=000000  Size=000201  Align=00001  Fill=0000
+    CODE              Offs=000000  Size=000233  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00000C  Align=00001  Fill=0000
 main.o:
-    CODE              Offs=000201  Size=000050  Align=00001  Fill=0000
+    CODE              Offs=000233  Size=000119  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_directerrno.o):
+    CODE              Offs=00034C  Size=00000A  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(_heap.o):
     DATA              Offs=000000  Size=00000A  Align=00001  Fill=0000
     ONCE              Offs=000000  Size=000010  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_hextab.o):
+    RODATA            Offs=00000C  Size=000010  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_longminstr.o):
+    RODATA            Offs=00001C  Size=00000C  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_oserror.o):
+    BSS               Offs=000000  Size=000001  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_printf.o):
+    CODE              Offs=000356  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=000001  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=00000A  Size=000003  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(_scrsize.o):
-    CODE              Offs=000251  Size=000006  Align=00001  Fill=0000
+    CODE              Offs=0006FB  Size=000006  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(_seterrno.o):
+    CODE              Offs=000701  Size=000009  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(add.o):
-    CODE              Offs=000257  Size=00001A  Align=00001  Fill=0000
+    CODE              Offs=00070A  Size=00001A  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(addysp.o):
-    CODE              Offs=000271  Size=00000E  Align=00001  Fill=0000
+    CODE              Offs=000724  Size=00000E  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(axlong.o):
+    CODE              Offs=000732  Size=000012  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(callmain.o):
-    CODE              Offs=00027F  Size=000017  Align=00001  Fill=0000
-    DATA              Offs=00000A  Size=000004  Align=00001  Fill=0000
+    CODE              Offs=000744  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=00000D  Size=000004  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(checkst.o):
-    CODE              Offs=000296  Size=00000A  Align=00001  Fill=0000
+    CODE              Offs=00075B  Size=00000A  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(clock.o):
+    CODE              Offs=000765  Size=00000A  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(clrscr.o):
-    CODE              Offs=0002A0  Size=00002A  Align=00001  Fill=0000
+    CODE              Offs=00076F  Size=00002A  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(condes.o):
-    CODE              Offs=0002CA  Size=00000C  Align=00001  Fill=0000
-    DATA              Offs=00000E  Size=000025  Align=00001  Fill=0000
+    CODE              Offs=000799  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000011  Size=000025  Align=00001  Fill=0000
     ONCE              Offs=000010  Size=00000C  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(conio.o):
 D:\cc65\lib/pet.lib(cputc.o):
-    CODE              Offs=0002D6  Size=00006F  Align=00001  Fill=0000
-    RODATA            Offs=000000  Size=000032  Align=00001  Fill=0000
+    CODE              Offs=0007A5  Size=00006F  Align=00001  Fill=0000
+    RODATA            Offs=000028  Size=000032  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(crt0.o):
-    BSS               Offs=000000  Size=000002  Align=00001  Fill=0000
+    BSS               Offs=00002C  Size=000002  Align=00001  Fill=0000
     STARTUP           Offs=000000  Size=000040  Align=00001  Fill=0000
     INIT              Offs=000000  Size=00001A  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(ctype.o):
+    RODATA            Offs=00005A  Size=000100  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(decsp3.o):
-    CODE              Offs=000345  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000814  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(decsp4.o):
+    CODE              Offs=000821  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(decsp6.o):
+    CODE              Offs=00082E  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(div.o):
+    CODE              Offs=00083B  Size=000018  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(errno.o):
+    BSS               Offs=00002E  Size=000002  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(exehdr.o):
     EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(free.o):
-    CODE              Offs=000352  Size=0001D3  Align=00001  Fill=0000
+    CODE              Offs=000853  Size=0001D3  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(gotoxy.o):
-    CODE              Offs=000525  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000A26  Size=00000D  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(icmp.o):
-    CODE              Offs=000532  Size=00002E  Align=00001  Fill=0000
+    CODE              Offs=000A33  Size=00002E  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(incax1.o):
-    CODE              Offs=000560  Size=000007  Align=00001  Fill=0000
+    CODE              Offs=000A61  Size=000007  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(incaxy.o):
-    CODE              Offs=000567  Size=00000B  Align=00001  Fill=0000
+    CODE              Offs=000A68  Size=00000B  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(incsp2.o):
-    CODE              Offs=000572  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=000A73  Size=000016  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(incsp4.o):
-    CODE              Offs=000588  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=000A89  Size=000005  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(incsp6.o):
+    CODE              Offs=000A8E  Size=000005  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(incsp7.o):
-    CODE              Offs=00058D  Size=000005  Align=00001  Fill=0000
+    CODE              Offs=000A93  Size=000005  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(kbhit.o):
-    CODE              Offs=000592  Size=000009  Align=00001  Fill=0000
+    CODE              Offs=000A98  Size=000009  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(kbsout.o):
-    CODE              Offs=00059B  Size=000006  Align=00001  Fill=0000
+    CODE              Offs=000AA1  Size=000006  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(krdtim.o):
+    CODE              Offs=000AA7  Size=000009  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(ldaxi.o):
-    CODE              Offs=0005A1  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000AB0  Size=00000D  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(ldaxsp.o):
-    CODE              Offs=0005AE  Size=000009  Align=00001  Fill=0000
+    CODE              Offs=000ABD  Size=000009  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(ldeaxysp.o):
+    CODE              Offs=000AC6  Size=000013  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(leaaxsp.o):
-    CODE              Offs=0005B7  Size=00000C  Align=00001  Fill=0000
+    CODE              Offs=000AD9  Size=00000C  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(loadaddr.o):
     LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(lpush.o):
+    CODE              Offs=000AE5  Size=000021  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(lsub.o):
+    CODE              Offs=000B06  Size=000027  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(ltoa.o):
+    CODE              Offs=000B2D  Size=0000AF  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(malloc.o):
-    CODE              Offs=0005C3  Size=00010E  Align=00001  Fill=0000
+    CODE              Offs=000BDC  Size=00010E  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(memcpy.o):
-    CODE              Offs=0006D1  Size=000041  Align=00001  Fill=0000
+    CODE              Offs=000CEA  Size=000041  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(memset.o):
-    CODE              Offs=000712  Size=00005D  Align=00001  Fill=0000
+    CODE              Offs=000D2B  Size=00005D  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(mod.o):
-    CODE              Offs=00076F  Size=000014  Align=00001  Fill=0000
+    CODE              Offs=000D88  Size=000014  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(mul8.o):
-    CODE              Offs=000783  Size=00003A  Align=00001  Fill=0000
+    CODE              Offs=000D9C  Size=00003A  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(mulax5.o):
+    CODE              Offs=000DD6  Size=000014  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(neg.o):
-    CODE              Offs=0007BD  Size=00000E  Align=00001  Fill=0000
+    CODE              Offs=000DEA  Size=00000E  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(popa.o):
-    CODE              Offs=0007CB  Size=00000C  Align=00001  Fill=0000
+    CODE              Offs=000DF8  Size=00000C  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(popsreg.o):
-    CODE              Offs=0007D7  Size=000010  Align=00001  Fill=0000
+    CODE              Offs=000E04  Size=000010  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(push1.o):
+    CODE              Offs=000E14  Size=000005  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(pushax.o):
-    CODE              Offs=0007E7  Size=00001A  Align=00001  Fill=0000
+    CODE              Offs=000E19  Size=00001A  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(pushw.o):
-    CODE              Offs=000801  Size=00000F  Align=00001  Fill=0000
+    CODE              Offs=000E33  Size=00000F  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(pushwsp.o):
-    CODE              Offs=000810  Size=00001C  Align=00001  Fill=0000
+    CODE              Offs=000E42  Size=00001C  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(rand.o):
-    CODE              Offs=00082C  Size=00004A  Align=00001  Fill=0000
-    DATA              Offs=000033  Size=000004  Align=00001  Fill=0000
+    CODE              Offs=000E5E  Size=00004A  Align=00001  Fill=0000
+    DATA              Offs=000036  Size=000004  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(scrsize.o):
-    CODE              Offs=000876  Size=000013  Align=00001  Fill=0000
+    CODE              Offs=000EA8  Size=000013  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(shelp.o):
-    CODE              Offs=000889  Size=00001E  Align=00001  Fill=0000
+    CODE              Offs=000EBB  Size=00001E  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(sprintf.o):
+    CODE              Offs=000ED9  Size=00002B  Align=00001  Fill=0000
+    BSS               Offs=000030  Size=000001  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(staspidx.o):
-    CODE              Offs=0008A7  Size=000016  Align=00001  Fill=0000
+    CODE              Offs=000F04  Size=000016  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(status.o):
 D:\cc65\lib/pet.lib(staxsp.o):
-    CODE              Offs=0008BD  Size=00000B  Align=00001  Fill=0000
+    CODE              Offs=000F1A  Size=00000B  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(staxspi.o):
-    CODE              Offs=0008C8  Size=00001B  Align=00001  Fill=0000
+    CODE              Offs=000F25  Size=00001B  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(steaxsp.o):
+    CODE              Offs=000F40  Size=000015  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(strlen.o):
+    CODE              Offs=000F55  Size=000016  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(strlower.o):
+    CODE              Offs=000F6B  Size=000028  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(sub.o):
-    CODE              Offs=0008E3  Size=000015  Align=00001  Fill=0000
+    CODE              Offs=000F93  Size=000015  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(subysp.o):
-    CODE              Offs=0008F8  Size=00000D  Align=00001  Fill=0000
+    CODE              Offs=000FA8  Size=00000D  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(udiv.o):
-    CODE              Offs=000905  Size=00004F  Align=00001  Fill=0000
+    CODE              Offs=000FB5  Size=00004F  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(umod.o):
-    CODE              Offs=000954  Size=000011  Align=00001  Fill=0000
+    CODE              Offs=001004  Size=000011  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(vsnprintf.o):
+    CODE              Offs=001015  Size=0000DA  Align=00001  Fill=0000
+    DATA              Offs=00003A  Size=000008  Align=00001  Fill=0000
+D:\cc65\lib/pet.lib(vsprintf.o):
+    CODE              Offs=0010EF  Size=000012  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(zerobss.o):
-    CODE              Offs=000965  Size=000023  Align=00001  Fill=0000
+    CODE              Offs=001101  Size=000023  Align=00001  Fill=0000
 D:\cc65\lib/pet.lib(zeropage.o):
     ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
 
@@ -123,103 +182,137 @@ LOADADDR              0003FF  000400  000002  00001
 EXEHDR                000401  00040C  00000C  00001
 STARTUP               00040D  00044C  000040  00001
 ONCE                  00044D  00046A  00001E  00001
-CODE                  00046B  000DF2  000988  00001
-RODATA                000DF3  000E24  000032  00001
-DATA                  000E25  000E5B  000037  00001
-INIT                  000E5C  000E75  00001A  00001
-BSS                   000E76  000E77  000002  00001
+CODE                  00046B  00158E  001124  00001
+RODATA                00158F  0016E8  00015A  00001
+DATA                  0016E9  00172A  000042  00001
+INIT                  00172B  001744  00001A  00001
+BSS                   001745  001775  000031  00001
 
 
 Exports list by name:
 ---------------------
-BSOUT                     000A06 RLA    CURS_X                    0000C6 RLZ    
-CURS_Y                    0000D8 RLZ    ST                        000096 RLZ    
-__BSS_RUN__               000E76 RLA    __BSS_SIZE__              000002 REA    
-__CONSTRUCTOR_COUNT__     000001 REA    __CONSTRUCTOR_TABLE__     000469 RLA    
-__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      000E25 RLA    
-__EXEHDR__                000001 REA    __LOADADDR__              000001 REA    
-__STACKSIZE__             000800 REA    __STARTUP__               000001 REA    
-__heapend                 000E29 RLA    __heapfirst               000E2B RLA    
-__heaplast                000E2D RLA    __heapptr                 000E27 RLA    
-_clear_screen             0004BF RLA    _clrscr                   00070B RLA    
-_draw_screen              0004F0 RLA    _draw_sprite              000514 RLA    
-_free                     0007BD RLA    _free_screen              0004DF RLA    
-_init_screen              00046B RLA    _kbhit                    0009FD RLA    
-_main                     00066C RLA    _malloc                   000A2E RLA    
-_memcpy                   000B3C RLA    _memset                   000B85 RLA    
-_rand                     000C97 RLA    _screensize               000CE1 RLA    
-_update_sprite            0005C0 RLA    addysp                    0006DD RLA    
-addysp1                   0006DC RLA    callmain                  0006EA RLA    
-checkst                   000701 RLA    decsp3                    0007B0 RLA    
-donelib                   000735 RLA    gotoxy                    000990 RLA    
-incax1                    0009CB RLA    incaxy                    0009D4 RLA    
-incsp2                    0009E5 RLA    incsp4                    0009F3 RLA    
-incsp7                    0009F8 RLA    initheap                  00044D  LAI   
-initlib                   00045D RLA    ldax0sp                   000A19 RLA    
-ldaxidx                   000A0E RLA    ldaxysp                   000A1B RLA    
-leaa0sp                   000A22 RLA    negax                     000C28 RLA    
-plot                      000791 RLA    popa                      000C36 RLA    
-popax                     0009DD RLA    popsargs                  000CF4 RLA    
-popsreg                   000C42 RLA    ptr1                      00005D RLZ    
+BSOUT                     000F0C RLA    CURS_X                    0000C6 RLZ    
+CURS_Y                    0000D8 RLZ    RDTIM                     000F12 RLA    
+ST                        000096 RLZ    __BSS_RUN__               001745 RLA    
+__BSS_SIZE__              000031 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__CONSTRUCTOR_TABLE__     000469 RLA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      0016E9 RLA    __EXEHDR__                000001 REA    
+__LOADADDR__              000001 REA    __STACKSIZE__             000800 REA    
+__STARTUP__               000001 REA    __ctype                   0015E9 RLA    
+__directerrno             0007B7 RLA    __errno                   001773 RLA    
+__heapend                 0016ED RLA    __heapfirst               0016EF RLA    
+__heaplast                0016F1 RLA    __heapptr                 0016EB RLA    
+__hextab                  00159B RLA    __longminstr              0015AB RLA    
+__oserror                 001745 RLA    __printf                  0008B4 RLA    
+__seterrno                000B6C RLA    _clear_screen             0004BF RLA    
+_clock                    000BD0 RLA    _clrscr                   000BDA RLA    
+_draw_fps                 000514 RLA    _draw_screen              0004F0 RLA    
+_draw_sprite              000560 RLA    _free                     000CBE RLA    
+_free_screen              0004DF RLA    _init_screen              00046B RLA    
+_kbhit                    000F03 RLA    _ltoa                     000FB4 RLA    
+_main                     00069E RLA    _malloc                   001047 RLA    
+_memcpy                   001155 RLA    _memset                   00119E RLA    
+_rand                     0012C9 RLA    _screensize               001313 RLA    
+_sprintf                  001344 RLA    _strlen                   0013C0 RLA    
+_strlower                 0013D6 RLA    _ultoa                    00100B RLA    
+_update_sprite            00060C RLA    _vsprintf                 00155A RLA    
+addysp                    000B90 RLA    addysp1                   000B8F RLA    
+axlong                    000BA4 RLA    axulong                   000B9D RLA    
+callmain                  000BAF RLA    checkst                   000BC6 RLA    
+decsp3                    000C7F RLA    decsp4                    000C8C RLA    
+decsp6                    000C99 RLA    donelib                   000C04 RLA    
+gotoxy                    000E91 RLA    incax1                    000ECC RLA    
+incaxy                    000ED5 RLA    incsp2                    000EE6 RLA    
+incsp4                    000EF4 RLA    incsp6                    000EF9 RLA    
+incsp7                    000EFE RLA    initheap                  00044D  LAI   
+initlib                   00045D RLA    ldax0sp                   000F28 RLA    
+ldaxidx                   000F1D RLA    ldaxysp                   000F2A RLA    
+ldeaxysp                  000F33 RLA    leaa0sp                   000F44 RLA    
+mulax5                    001241 RLA    negax                     001255 RLA    
+plot                      000C60 RLA    popa                      001263 RLA    
+popax                     000EDE RLA    popsargs                  001326 RLA    
+popsreg                   00126F RLA    ptr1                      00005D RLZ    
 ptr2                      00005F RLZ    ptr3                      000061 RLZ    
-ptr4                      000063 RLZ    pusha0                    000C54 RLA    
-pushax                    000C56 RLA    pushw0sp                  000C7B RLA    
-pushwidx                  000C6E RLA    screensize                0006BC RLA    
+ptr4                      000063 RLZ    push1                     00127F RLA    
+pusha0                    001286 RLA    pushax                    001288 RLA    
+pusheax                   000F59 RLA    pushw0sp                  0012AD RLA    
+pushwidx                  0012A0 RLA    pushwysp                  0012AF RLA    
+regbank                   000069 RLZ    screensize                000B66 RLA    
 sp                        000055 RLZ    sreg                      000057 RLZ    
-staspidx                  000D12 RLA    stax0sp                   000D28 RLA    
-staxspidx                 000D33 RLA    subysp                    000D63 RLA    
+staspidx                  00136F RLA    stax0sp                   001385 RLA    
+staxspidx                 001390 RLA    staxysp                   001387 RLA    
+steaxysp                  0013AD RLA    subysp                    001413 RLA    
 tmp1                      000065 RLZ    tmp2                      000066 RLZ    
-tosadda0                  0006C2 RLA    tosaddax                  0006C4 RLA    
-tosicmp                   00099F RLA    tosmoda0                  000BDA RLA    
-tossuba0                  000D4E RLA    tosumodax                 000DC1 RLA    
-tosumula0                 000BEE RLA    udiv16                    000D81 RLA    
-zerobss                   000DD0 RLA    
+tosadda0                  000B75 RLA    tosaddax                  000B77 RLA    
+tosdivax                  000CA8 RLA    tosicmp                   000EA0 RLA    
+tosmoda0                  0011F3 RLA    tossuba0                  0013FE RLA    
+tossubeax                 000F77 RLA    tosumodax                 001471 RLA    
+tosumula0                 001207 RLA    udiv16                    001431 RLA    
+vsnprintf                 001483 RLA    zerobss                   00156C RLA    
+
 
 
 Exports list by value:
 ----------------------
-__DESTRUCTOR_COUNT__      000000 REA    __CONSTRUCTOR_COUNT__     000001 REA    
-__LOADADDR__              000001 REA    __STARTUP__               000001 REA    
-__EXEHDR__                000001 REA    __BSS_SIZE__              000002 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __EXEHDR__                000001 REA    
+__LOADADDR__              000001 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__STARTUP__               000001 REA    __BSS_SIZE__              000031 REA    
 sp                        000055 RLZ    sreg                      000057 RLZ    
 ptr1                      00005D RLZ    ptr2                      00005F RLZ    
 ptr3                      000061 RLZ    ptr4                      000063 RLZ    
 tmp1                      000065 RLZ    tmp2                      000066 RLZ    
-ST                        000096 RLZ    CURS_X                    0000C6 RLZ    
-CURS_Y                    0000D8 RLZ    initheap                  00044D  LAI   
-initlib                   00045D RLA    __CONSTRUCTOR_TABLE__     000469 RLA    
-_init_screen              00046B RLA    _clear_screen             0004BF RLA    
-_free_screen              0004DF RLA    _draw_screen              0004F0 RLA    
-_draw_sprite              000514 RLA    _update_sprite            0005C0 RLA    
-_main                     00066C RLA    screensize                0006BC RLA    
-tosadda0                  0006C2 RLA    tosaddax                  0006C4 RLA    
-addysp1                   0006DC RLA    addysp                    0006DD RLA    
-callmain                  0006EA RLA    checkst                   000701 RLA    
-_clrscr                   00070B RLA    donelib                   000735 RLA    
-plot                      000791 RLA    decsp3                    0007B0 RLA    
-_free                     0007BD RLA    __STACKSIZE__             000800 REA    
-gotoxy                    000990 RLA    tosicmp                   00099F RLA    
-incax1                    0009CB RLA    incaxy                    0009D4 RLA    
-popax                     0009DD RLA    incsp2                    0009E5 RLA    
-incsp4                    0009F3 RLA    incsp7                    0009F8 RLA    
-_kbhit                    0009FD RLA    BSOUT                     000A06 RLA    
-ldaxidx                   000A0E RLA    ldax0sp                   000A19 RLA    
-ldaxysp                   000A1B RLA    leaa0sp                   000A22 RLA    
-_malloc                   000A2E RLA    _memcpy                   000B3C RLA    
-_memset                   000B85 RLA    tosmoda0                  000BDA RLA    
-tosumula0                 000BEE RLA    negax                     000C28 RLA    
-popa                      000C36 RLA    popsreg                   000C42 RLA    
-pusha0                    000C54 RLA    pushax                    000C56 RLA    
-pushwidx                  000C6E RLA    pushw0sp                  000C7B RLA    
-_rand                     000C97 RLA    _screensize               000CE1 RLA    
-popsargs                  000CF4 RLA    staspidx                  000D12 RLA    
-stax0sp                   000D28 RLA    staxspidx                 000D33 RLA    
-tossuba0                  000D4E RLA    subysp                    000D63 RLA    
-udiv16                    000D81 RLA    tosumodax                 000DC1 RLA    
-zerobss                   000DD0 RLA    __DESTRUCTOR_TABLE__      000E25 RLA    
-__heapptr                 000E27 RLA    __heapend                 000E29 RLA    
-__heapfirst               000E2B RLA    __heaplast                000E2D RLA    
-__BSS_RUN__               000E76 RLA    
+regbank                   000069 RLZ    ST                        000096 RLZ    
+CURS_X                    0000C6 RLZ    CURS_Y                    0000D8 RLZ    
+initheap                  00044D  LAI   initlib                   00045D RLA    
+__CONSTRUCTOR_TABLE__     000469 RLA    _init_screen              00046B RLA    
+_clear_screen             0004BF RLA    _free_screen              0004DF RLA    
+_draw_screen              0004F0 RLA    _draw_fps                 000514 RLA    
+_draw_sprite              000560 RLA    _update_sprite            00060C RLA    
+_main                     00069E RLA    __directerrno             0007B7 RLA    
+__STACKSIZE__             000800 REA    __printf                  0008B4 RLA    
+screensize                000B66 RLA    __seterrno                000B6C RLA    
+tosadda0                  000B75 RLA    tosaddax                  000B77 RLA    
+addysp1                   000B8F RLA    addysp                    000B90 RLA    
+axulong                   000B9D RLA    axlong                    000BA4 RLA    
+callmain                  000BAF RLA    checkst                   000BC6 RLA    
+_clock                    000BD0 RLA    _clrscr                   000BDA RLA    
+donelib                   000C04 RLA    plot                      000C60 RLA    
+decsp3                    000C7F RLA    decsp4                    000C8C RLA    
+decsp6                    000C99 RLA    tosdivax                  000CA8 RLA    
+_free                     000CBE RLA    gotoxy                    000E91 RLA    
+tosicmp                   000EA0 RLA    incax1                    000ECC RLA    
+incaxy                    000ED5 RLA    popax                     000EDE RLA    
+incsp2                    000EE6 RLA    incsp4                    000EF4 RLA    
+incsp6                    000EF9 RLA    incsp7                    000EFE RLA    
+_kbhit                    000F03 RLA    BSOUT                     000F0C RLA    
+RDTIM                     000F12 RLA    ldaxidx                   000F1D RLA    
+ldax0sp                   000F28 RLA    ldaxysp                   000F2A RLA    
+ldeaxysp                  000F33 RLA    leaa0sp                   000F44 RLA    
+pusheax                   000F59 RLA    tossubeax                 000F77 RLA    
+_ltoa                     000FB4 RLA    _ultoa                    00100B RLA    
+_malloc                   001047 RLA    _memcpy                   001155 RLA    
+_memset                   00119E RLA    tosmoda0                  0011F3 RLA    
+tosumula0                 001207 RLA    mulax5                    001241 RLA    
+negax                     001255 RLA    popa                      001263 RLA    
+popsreg                   00126F RLA    push1                     00127F RLA    
+pusha0                    001286 RLA    pushax                    001288 RLA    
+pushwidx                  0012A0 RLA    pushw0sp                  0012AD RLA    
+pushwysp                  0012AF RLA    _rand                     0012C9 RLA    
+_screensize               001313 RLA    popsargs                  001326 RLA    
+_sprintf                  001344 RLA    staspidx                  00136F RLA    
+stax0sp                   001385 RLA    staxysp                   001387 RLA    
+staxspidx                 001390 RLA    steaxysp                  0013AD RLA    
+_strlen                   0013C0 RLA    _strlower                 0013D6 RLA    
+tossuba0                  0013FE RLA    subysp                    001413 RLA    
+udiv16                    001431 RLA    tosumodax                 001471 RLA    
+vsnprintf                 001483 RLA    _vsprintf                 00155A RLA    
+zerobss                   00156C RLA    __hextab                  00159B RLA    
+__longminstr              0015AB RLA    __ctype                   0015E9 RLA    
+__DESTRUCTOR_TABLE__      0016E9 RLA    __heapptr                 0016EB RLA    
+__heapend                 0016ED RLA    __heapfirst               0016EF RLA    
+__heaplast                0016F1 RLA    __BSS_RUN__               001745 RLA    
+__oserror                 001745 RLA    __errno                   001773 RLA    
+
 
 
 Imports list:
@@ -230,6 +323,8 @@ CURS_X (conio.o):
     gotoxy.o                  cbm/gotoxy.s(9)
 CURS_Y (conio.o):
     gotoxy.o                  cbm/gotoxy.s(9)
+RDTIM (krdtim.o):
+    clock.o                   cbm/clock.s(8)
 ST (status.o):
     checkst.o                 pet/checkst.s(9)
     crt0.o                    pet/crt0.s(11)
@@ -256,6 +351,12 @@ __STACKSIZE__ ([linker generated]):
     [linker generated]        D:\cc65\cfg/pet.cfg(10)
 __STARTUP__ (crt0.o):
     main.o                    main.s(13)
+__ctype (ctype.o):
+    strlower.o                common/strlower.s(13)
+__directerrno (_directerrno.o):
+    vsnprintf.o               /home/travis/build/cc65/cc65/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /home/travis/build/cc65/cc65/asminc/errno.inc(7)
 __heapend (_heap.o):
     malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(33)
 __heapfirst (_heap.o):
@@ -267,113 +368,176 @@ __heaplast (_heap.o):
 __heapptr (_heap.o):
     malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
     free.o                    /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__oserror (_oserror.o):
+    _directerrno.o            /home/travis/build/cc65/cc65/asminc/errno.inc(7)
+__printf (_printf.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+__seterrno (_seterrno.o):
+    _directerrno.o            /home/travis/build/cc65/cc65/asminc/errno.inc(9)
 _clear_screen (draw.o):
-    main.o                    main.s(16)
+    main.o                    main.s(17)
+_clock (clock.o):
+    main.o                    main.s(14)
 _clrscr (clrscr.o):
     draw.o                    draw.s(13)
+_draw_fps (draw.o):
+    main.o                    main.s(20)
 _draw_screen (draw.o):
-    main.o                    main.s(18)
-_draw_sprite (draw.o):
     main.o                    main.s(19)
+_draw_sprite (draw.o):
+    main.o                    main.s(21)
 _free (free.o):
     draw.o                    draw.s(16)
 _free_screen (draw.o):
-    main.o                    main.s(17)
+    main.o                    main.s(18)
 _init_screen (draw.o):
-    main.o                    main.s(15)
+    main.o                    main.s(16)
 _kbhit (kbhit.o):
-    main.o                    main.s(14)
+    main.o                    main.s(15)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
 _main (main.o):
     callmain.o                runtime/callmain.s(11)
 _malloc (malloc.o):
     draw.o                    draw.s(15)
 _memcpy (memcpy.o):
-    draw.o                    draw.s(18)
-_memset (memset.o):
+    vsnprintf.o               common/vsnprintf.s(10)
     draw.o                    draw.s(19)
+_memset (memset.o):
+    draw.o                    draw.s(20)
 _rand (rand.o):
     draw.o                    draw.s(17)
 _screensize (scrsize.o):
     draw.o                    draw.s(14)
+_sprintf (sprintf.o):
+    draw.o                    draw.s(28)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
 _update_sprite (draw.o):
-    main.o                    main.s(20)
+    main.o                    main.s(22)
+_vsprintf (vsprintf.o):
+    sprintf.o                 common/sprintf.s(8)
 addysp (addysp.o):
+    incsp6.o                  runtime/incsp6.s(8)
+    sprintf.o                 common/sprintf.s(8)
     incsp7.o                  runtime/incsp7.s(8)
     incsp4.o                  runtime/incsp4.s(8)
-    main.o                    main.s(66)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
 addysp1 (addysp.o):
     sub.o                     runtime/sub.s(8)
+    lsub.o                    runtime/lsub.s(11)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _printf.o                 common/_printf.s(11)
 callmain (callmain.o):
     crt0.o                    pet/crt0.s(9)
 checkst (checkst.o):
     kbsout.o                  pet/kbsout.s(8)
 decsp3 (decsp3.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+decsp4 (decsp4.o):
+    sprintf.o                 common/sprintf.s(8)
+    lpush.o                   runtime/lpush.s(11)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
 donelib (condes.o):
     crt0.o                    pet/crt0.s(7)
 gotoxy (gotoxy.o):
     cputc.o                   pet/cputc.s(10)
 incax1 (incax1.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 incaxy (incaxy.o):
-    draw.o                    draw.s(311)
+    main.o                    main.s(166)
 incsp2 (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
     staxspi.o                 runtime/staxspi.s(8)
     staspidx.o                runtime/staspidx.s(8)
     popsreg.o                 runtime/popsreg.s(8)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 incsp4 (incsp4.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+incsp6 (incsp6.o):
+    vsnprintf.o               common/vsnprintf.s(9)
 incsp7 (incsp7.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 initlib (condes.o):
     crt0.o                    pet/crt0.s(7)
 ldax0sp (ldaxsp.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 ldaxidx (ldaxi.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 ldaxysp (ldaxsp.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    vsnprintf.o               common/vsnprintf.s(9)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+ldeaxysp (ldeaxysp.o):
+    main.o                    main.s(166)
 leaa0sp (leaaxsp.o):
-    main.o                    main.s(66)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
+mulax5 (mulax5.o):
+    main.o                    main.s(166)
 negax (neg.o):
     shelp.o                   runtime/shelp.s(11)
     mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
 plot (cputc.o):
     gotoxy.o                  cbm/gotoxy.s(8)
     clrscr.o                  pet/clrscr.s(8)
 popa (popa.o):
     gotoxy.o                  cbm/gotoxy.s(8)
 popax (incsp2.o):
+    ltoa.o                    common/ltoa.s(9)
+    _printf.o                 common/_printf.s(11)
+    vsnprintf.o               common/vsnprintf.s(9)
     shelp.o                   runtime/shelp.s(11)
     memset.o                  common/memset.s(19)
     memcpy.o                  common/memcpy.s(14)
 popsargs (shelp.o):
     mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
 popsreg (popsreg.o):
     umod.o                    runtime/umod.s(8)
     udiv.o                    runtime/udiv.s(8)
     scrsize.o                 conio/scrsize.s(9)
     mul8.o                    runtime/mul8.s(9)
 ptr1 (zeropage.o):
+    strlower.o                common/strlower.s(14)
+    strlen.o                  common/strlen.s(8)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(12)
+    vsnprintf.o               common/vsnprintf.s(11)
     zerobss.o                 common/zerobss.s(9)
     umod.o                    runtime/umod.s(9)
     udiv.o                    runtime/udiv.s(9)
     staxspi.o                 runtime/staxspi.s(9)
     staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
     scrsize.o                 conio/scrsize.s(11)
     pushw.o                   runtime/pushw.s(9)
+    mulax5.o                  runtime/mulax5.s(8)
     mod.o                     runtime/mod.s(12)
     memset.o                  common/memset.s(20)
     memcpy.o                  common/memcpy.s(15)
@@ -381,13 +545,18 @@ ptr1 (zeropage.o):
     ldaxi.o                   runtime/ldaxi.s(8)
     free.o                    common/free.s(62)
     clrscr.o                  pet/clrscr.s(9)
+    main.o                    main.s(11)
     draw.o                    draw.s(11)
 ptr2 (zeropage.o):
+    strlower.o                common/strlower.s(14)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(12)
     memset.o                  common/memset.s(20)
     memcpy.o                  common/memcpy.s(15)
     malloc.o                  common/malloc.s(108)
     free.o                    common/free.s(62)
 ptr3 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
     memset.o                  common/memset.s(20)
     memcpy.o                  common/memcpy.s(15)
     malloc.o                  common/malloc.s(108)
@@ -398,44 +567,69 @@ ptr4 (zeropage.o):
     shelp.o                   runtime/shelp.s(12)
     mul8.o                    runtime/mul8.s(10)
     free.o                    common/free.s(62)
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
 pusha0 (pushax.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    push1.o                   runtime/push1.s(8)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 pushax (pushax.o):
+    _printf.o                 common/_printf.s(11)
     callmain.o                runtime/callmain.s(11)
     pushw.o                   runtime/pushw.s(8)
-    main.o                    main.s(66)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+pusheax (lpush.o):
+    _printf.o                 common/_printf.s(11)
+    main.o                    main.s(166)
 pushw0sp (pushwsp.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    vsprintf.o                common/vsprintf.s(8)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 pushwidx (pushw.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
+pushwysp (pushwsp.o):
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
+regbank (zeropage.o):
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(14)
 screensize (_scrsize.o):
     scrsize.o                 conio/scrsize.s(10)
 sp (zeropage.o):
+    decsp6.o                  runtime/decsp6.s(8)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
+    vsnprintf.o               common/vsnprintf.s(11)
+    decsp4.o                  runtime/decsp4.s(8)
     _heap.o                   common/_heap.s(9)
     subysp.o                  runtime/subysp.s(9)
     sub.o                     runtime/sub.s(9)
+    steaxsp.o                 runtime/steaxsp.s(8)
     staxspi.o                 runtime/staxspi.s(9)
     staxsp.o                  runtime/staxsp.s(8)
     staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
     pushwsp.o                 runtime/pushwsp.s(8)
     pushax.o                  runtime/pushax.s(8)
     popsreg.o                 runtime/popsreg.s(9)
     popa.o                    runtime/popa.s(8)
     memset.o                  common/memset.s(20)
     memcpy.o                  common/memcpy.s(15)
+    lsub.o                    runtime/lsub.s(12)
+    lpush.o                   runtime/lpush.s(12)
     leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
     ldaxsp.o                  runtime/ldaxsp.s(8)
     incsp2.o                  runtime/incsp2.s(8)
     icmp.o                    runtime/icmp.s(9)
@@ -443,48 +637,75 @@ sp (zeropage.o):
     crt0.o                    /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
     addysp.o                  runtime/addysp.s(8)
     add.o                     runtime/add.s(11)
+    main.o                    main.s(10)
     draw.o                    draw.s(10)
 sreg (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    axlong.o                  runtime/axlong.s(8)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(11)
     udiv.o                    runtime/udiv.s(9)
+    steaxsp.o                 runtime/steaxsp.s(8)
     shelp.o                   runtime/shelp.s(12)
     scrsize.o                 conio/scrsize.s(11)
     popsreg.o                 runtime/popsreg.s(9)
     mul8.o                    runtime/mul8.s(10)
+    lsub.o                    runtime/lsub.s(12)
+    lpush.o                   runtime/lpush.s(12)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
     icmp.o                    runtime/icmp.s(9)
+    div.o                     runtime/div.s(12)
+    clock.o                   cbm/clock.s(9)
 staspidx (staspidx.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 stax0sp (staxsp.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 staxspidx (staxspi.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+staxysp (staxsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+    main.o                    main.s(166)
+steaxysp (steaxsp.o):
+    main.o                    main.s(166)
 subysp (subysp.o):
-    main.o                    main.s(66)
+    main.o                    main.s(166)
+    draw.o                    draw.s(355)
 tmp1 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /home/travis/build/cc65/cc65/asminc/zeropage.inc(13)
     staxspi.o                 runtime/staxspi.s(9)
     staspidx.o                runtime/staspidx.s(9)
     shelp.o                   runtime/shelp.s(12)
     mod.o                     runtime/mod.s(12)
     incaxy.o                  runtime/incaxy.s(8)
+    div.o                     runtime/div.s(12)
 tmp2 (zeropage.o):
     shelp.o                   runtime/shelp.s(12)
+    div.o                     runtime/div.s(12)
 tosadda0 (add.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 tosaddax (add.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+tosdivax (div.o):
+    main.o                    main.s(166)
 tosicmp (icmp.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 tosmoda0 (mod.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 tossuba0 (sub.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+tossubeax (lsub.o):
+    main.o                    main.s(166)
 tosumodax (umod.o):
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
 tosumula0 (mul8.o):
-    draw.o                    draw.s(311)
-    draw.o                    draw.s(311)
+    draw.o                    draw.s(355)
+    draw.o                    draw.s(355)
 udiv16 (udiv.o):
     umod.o                    runtime/umod.s(8)
     mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                common/vsprintf.s(9)
 zerobss (zerobss.o):
     crt0.o                    pet/crt0.s(8)
 

@@ -1,5 +1,7 @@
 #include "draw.h"
 
+#include <stdio.h>
+
 /*
   Update the sprite (Assign random size, character & position)
 */
@@ -10,11 +12,23 @@ void update_sprite(Screen *scrn, Sprite* sprite)
     sprite->height = rand() % 10;
     
     // Assign random character ... 
-    sprite->c = 0x41 + rand() % 26;
+    // sprite->c = 0x41 + rand() % 26;
+    // sprite->c = 0x30 + c;
     
     // Assign random offset ... 
     sprite->xoffset = rand() % (scrn->width - sprite->width); 
     sprite->yoffset = rand() % (scrn->height - sprite->height);  
+}
+
+/*
+   Draw an FPS on screen, along with ticks since last refresh 
+ */
+void draw_fps(Screen *scrn, int fps, int ticks)
+{
+    char buffer[20];
+	
+    sprintf(buffer, "FPS:%d (%d)", fps, ticks);
+    memcpy(scrn->screen, buffer, strlen(buffer));
 }
 
 /*
@@ -30,7 +44,7 @@ void draw_sprite(Screen *scrn, Sprite *sprite)
   {
     // Draw row ...
     p = scrn->screen + ((inc * scrn->width) + sprite->xoffset);
-    memset(p, sprite->c, sprite->width); // 
+    memset(p, sprite->c, sprite->width); 
   }
 } 
 
