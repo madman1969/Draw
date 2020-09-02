@@ -37,7 +37,7 @@ void draw_sprite(Screen *scrn, Sprite *sprite)
 /* 
   Allocate screen buffer based on screen size  
 */
-void buildscreen(Screen *scrn)
+void init_screen(Screen *scrn)
 {  
   // Clear the screen and establish screen dimensions 
   clrscr();  
@@ -51,7 +51,7 @@ void buildscreen(Screen *scrn)
 /*
   Clear the screen buffer (Fills screen with spaces): 
 */
-void clearscreen(Screen *scrn)
+void clear_screen(Screen *scrn)
 {
   // Fill screen buffer with spaces ...
   memset(scrn->screen, 0x20, scrn->size);  
@@ -60,7 +60,7 @@ void clearscreen(Screen *scrn)
 /*
   Free up previously allocated screen buffer
 */
-void freescreen(Screen *scrn)
+void free_screen(Screen *scrn)
 {
   free(scrn->screen);
 }
@@ -68,7 +68,7 @@ void freescreen(Screen *scrn)
 /*
   Dump the current screen buffer to the screen
 */
-void drawscreen(Screen *scrn)
+void draw_screen(Screen *scrn)
 {
   // Copy the screen buffer to the screen
   memcpy((void *)SCRNBASE, scrn->screen, scrn->size);

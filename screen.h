@@ -11,6 +11,9 @@
 
 typedef unsigned char byte;
 
+/*
+	Structure representing an individual sprite
+ */
 typedef struct {
   byte xoffset;
   byte yoffset;
@@ -19,6 +22,9 @@ typedef struct {
   char c;  
 } Sprite;
 
+/*
+	Structure representing the text screen 40x25, or 80x25
+ */
 typedef struct {
   byte width;
   byte height;

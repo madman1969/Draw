@@ -141,10 +141,10 @@ __EXEHDR__                000001 REA    __LOADADDR__              000001 REA
 __STACKSIZE__             000800 REA    __STARTUP__               000001 REA    
 __heapend                 000E29 RLA    __heapfirst               000E2B RLA    
 __heaplast                000E2D RLA    __heapptr                 000E27 RLA    
-_buildscreen              00046B RLA    _clearscreen              0004BF RLA    
-_clrscr                   00070B RLA    _draw_sprite              000514 RLA    
-_drawscreen               0004F0 RLA    _free                     0007BD RLA    
-_freescreen               0004DF RLA    _kbhit                    0009FD RLA    
+_clear_screen             0004BF RLA    _clrscr                   00070B RLA    
+_draw_screen              0004F0 RLA    _draw_sprite              000514 RLA    
+_free                     0007BD RLA    _free_screen              0004DF RLA    
+_init_screen              00046B RLA    _kbhit                    0009FD RLA    
 _main                     00066C RLA    _malloc                   000A2E RLA    
 _memcpy                   000B3C RLA    _memset                   000B85 RLA    
 _rand                     000C97 RLA    _screensize               000CE1 RLA    
@@ -188,8 +188,8 @@ tmp1                      000065 RLZ    tmp2                      000066 RLZ
 ST                        000096 RLZ    CURS_X                    0000C6 RLZ    
 CURS_Y                    0000D8 RLZ    initheap                  00044D  LAI   
 initlib                   00045D RLA    __CONSTRUCTOR_TABLE__     000469 RLA    
-_buildscreen              00046B RLA    _clearscreen              0004BF RLA    
-_freescreen               0004DF RLA    _drawscreen               0004F0 RLA    
+_init_screen              00046B RLA    _clear_screen             0004BF RLA    
+_free_screen              0004DF RLA    _draw_screen              0004F0 RLA    
 _draw_sprite              000514 RLA    _update_sprite            0005C0 RLA    
 _main                     00066C RLA    screensize                0006BC RLA    
 tosadda0                  0006C2 RLA    tosaddax                  0006C4 RLA    
@@ -267,20 +267,20 @@ __heaplast (_heap.o):
 __heapptr (_heap.o):
     malloc.o                  /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
     free.o                    /home/travis/build/cc65/cc65/asminc/_heap.inc(32)
-_buildscreen (draw.o):
-    main.o                    main.s(15)
-_clearscreen (draw.o):
+_clear_screen (draw.o):
     main.o                    main.s(16)
 _clrscr (clrscr.o):
     draw.o                    draw.s(13)
+_draw_screen (draw.o):
+    main.o                    main.s(18)
 _draw_sprite (draw.o):
     main.o                    main.s(19)
-_drawscreen (draw.o):
-    main.o                    main.s(18)
 _free (free.o):
     draw.o                    draw.s(16)
-_freescreen (draw.o):
+_free_screen (draw.o):
     main.o                    main.s(17)
+_init_screen (draw.o):
+    main.o                    main.s(15)
 _kbhit (kbhit.o):
     main.o                    main.s(14)
 _main (main.o):

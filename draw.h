@@ -11,10 +11,10 @@
 /*
   Function Prototypes
 */
-void buildscreen(Screen *scrn);
-void clearscreen(Screen* scrn);
-void freescreen(Screen *scrn);
-void drawscreen(Screen *scrn);
+void init_screen(Screen *scrn);
+void clear_screen(Screen* scrn);
+void free_screen(Screen *scrn);
+void draw_screen(Screen *scrn);
 void draw_sprite(Screen *scrn, Sprite *sprite);
 void update_sprite(Screen *scrn, Sprite* sprite);
 

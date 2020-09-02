@@ -5,21 +5,26 @@ void main(void)
   Screen scrn; 
   Sprite sprite;
   
-  // Build the screen buffer 
-  buildscreen(&scrn);  
+  // Create initial screen buffer 
+  init_screen(&scrn);  
     
   // Loop until a key is pressed ... 
-  do{    
-    clearscreen(&scrn);           
-        
+  do{
+    // Fill screen with spaces ...
+    clear_screen(&scrn);     
+
+  	// Assign random size & shape to sprite and draw it ...
     update_sprite(&scrn, &sprite);
     draw_sprite(&scrn, &sprite); 
-    
-    drawscreen(&scrn);
-	// waitvsync();
+
+  	// Draw screen buffer to screen ...
+    draw_screen(&scrn);
+
+  	// Doesn't work on PET's :( ...
+	// waitvsync();  
   }
   while (!kbhit());
      
   // Free up previously allocated screens ... 
-  freescreen(&scrn);
+  free_screen(&scrn);
 }
